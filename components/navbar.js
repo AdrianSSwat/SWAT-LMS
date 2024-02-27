@@ -17,31 +17,20 @@ export default function Navbar(props) {
       href: "/"
     },
     {
-      label: "About",
-      href: "/about"
+      label: "Archive",
+      href: "/archive"
     },
-    {
-      label: "Contact",
-      href: "/contact"
-    }
   ];
 
   const rightmenu = [
     {
-      label: "Archive",
-      href: "/archive"
+      label: "About",
+      href: "/about"
     },
     {
-      label: "Pro Version",
-      href: "https://stablo-pro.web3templates.com/",
-      external: true,
-      badge: "new"
+      label: "Helpdesk",
+      href: "mailto:helpdesk@gradstt.com"
     },
-    {
-      label: "Download",
-      href: "https://web3templates.com/templates/stablo-minimal-blog-website-template",
-      external: true
-    }
   ];
 
   const mobilemenu = [...leftmenu, ...rightmenu];
@@ -85,8 +74,8 @@ export default function Navbar(props) {
                         sizes="(max-width: 640px) 100vw, 200px"
                       />
                     ) : (
-                      <span className="block text-center">
-                        Stablo
+                      <span className="block text-center text-lg">
+                        <b>S.W.A.T. LMS</b>
                       </span>
                     )}
                   </Link>
@@ -99,8 +88,8 @@ export default function Navbar(props) {
                         sizes="(max-width: 640px) 100vw, 200px"
                       />
                     ) : (
-                      <span className="block text-center">
-                        Stablo
+                      <span className="block text-center text-3xl">
+                        <b>S.W.A.T. LMS</b>
                       </span>
                     )}
                   </Link>

@@ -20,7 +20,7 @@ export default function About({ authors, settings }) {
             <div
               key={author._id}
               className="relative aspect-square overflow-hidden rounded-md bg-slate-50 odd:translate-y-10 odd:md:translate-y-16">
-              <Link href={`/author/${author?.slug}`}>
+              <p href={`/author/${author?.slug}`}>
                 {imageProps && (
                   <Image
                     src={imageProps?.src}
@@ -30,26 +30,27 @@ export default function About({ authors, settings }) {
                     className="object-cover"
                   />
                 )}
-              </Link>
+              </p>
             </div>
           );
         })}
       </div>
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
+      <h1 className="text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
+        Empower Your Workforce with S.W.A.T.'s Learning Platform
+        </h1>
         <p>
-          We provide real-time connectivity to enable software
-          providers and financial institutions to build integrated
-          products for their small business customers.
+        Welcome to S.W.A.T. Learning Platform, where knowledge meets opportunity. Our comprehensive internal learning management system (LMS) is designed to empower your workforce by providing a dynamic and personalized learning experience tailored to your organization's needs.
         </p>
         <p>
-          Our API infrastructure is leveraged by clients ranging from
-          lenders to corporate card providers and business forecasting
-          tools, with use cases including automatic reconciliation,
-          business dashboarding, and loan decisioning.
+        Personalized Learning Paths: Our platform offers personalized learning paths tailored to each employee's role, skill level, and career aspirations.
         </p>
         <p>
-          <Link href="/contact">Get in touch</Link>
+        On-Demand Access: Access a vast library of courses, resources, and interactive content anytime, anywhere, and on any device.
+        </p>
+        <p>
+          <Link href="/archive">See resources</Link>
         </p>
       </div>
     </Container>

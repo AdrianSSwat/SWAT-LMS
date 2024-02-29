@@ -3,11 +3,12 @@ import Container from "@/components/container";
 import PostList from "@/components/postlist";
 
 export default function Post({ posts }) {
+
   return (
     <>
       {posts && (
         <Container>
-          <div className="grid gap-10 md:grid-cols-2 lg:gap-10 ">
+          <div className="grid gap-10 md:grid-cols-6 lg:gap-10 ">
             {posts.slice(0, 2).map(post => (
               <PostList
                 key={post._id}

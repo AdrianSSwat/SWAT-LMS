@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Container from "@/components/container";
 import PostList from "@/components/postlist";
+import CategoryLabel from "@/components/blog/category";
+import SearchInput from "@/components/ui/search";
 
 export default function Post({ posts }) {
 
@@ -8,6 +10,8 @@ export default function Post({ posts }) {
     <>
       {posts && (
         <Container>
+          <SearchInput />
+          <CategoryLabel />
           <div className="grid gap-10 md:grid-cols-6 lg:gap-10 ">
             {posts.slice(0, 2).map(post => (
               <PostList

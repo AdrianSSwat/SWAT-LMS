@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Container from "@/components/container";
 import PostList from "@/components/postlist";
-import CategoryLabel from "@/components/blog/category";
-import SearchInput from "@/components/ui/search";
+import Category from "../../components/blog/category";
+
 
 export default function Post({ posts }) {
 
@@ -10,9 +10,20 @@ export default function Post({ posts }) {
     <>
       {posts && (
         <Container>
-          <SearchInput />
-          <CategoryLabel />
-          <div className="grid gap-10 md:grid-cols-6 lg:gap-10 ">
+          <section className="relative">
+              <div className="mx-auto max-w-3xl text-center px-4 pb-16">
+                  <h1 className="text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
+                  Empower Your Workforce with S.W.A.T.'s Learning Management System
+                  </h1>
+                  <div className="text-center">
+                    <p className="mt-2 text-lg">
+                    Elevate Skills, Enhance Performance, Drive Success
+                    </p>
+                  </div>
+              </div>
+          </section>
+          <Category />
+          <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3">
             {posts.slice(0, 2).map(post => (
               <PostList
                 key={post._id}
@@ -22,7 +33,7 @@ export default function Post({ posts }) {
               />
             ))}
           </div>
-          <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 ">
+          <div className="mt-10 grid gap-10 md:grid-cols-3 lg:gap-10 xl:grid-cols-3">
             {posts.slice(2, 14).map(post => (
               <PostList key={post._id} post={post} aspect="square" />
             ))}

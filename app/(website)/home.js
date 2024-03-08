@@ -4,6 +4,7 @@ import PostList from "@/components/postlist";
 import Category from "../../components/category/page";
 import MSWord from "../../components/msword/page";
 import MSExcel from "../../components/msexcel/page";
+import Professional from "../../components/professional/page";
 
 
 export default function Post() {
@@ -26,6 +27,7 @@ export default function Post() {
           <Category />
           <MSWord />
           <MSExcel />
+          <Professional/>
         </Container>
     </>
   );

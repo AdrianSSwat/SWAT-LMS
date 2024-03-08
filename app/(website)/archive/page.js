@@ -12,7 +12,7 @@ export default async function ArchivePage({ searchParams }) {
     <>
       <Container className="relative">
         <h1 className="text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
-        Empower Your Workforce with S.W.A.T.'s Learning Management System
+        Empower Your Workforce with S.W.A.T. Learning Management System
         </h1>
         <div className="text-center">
           <p className="mt-2 text-lg">

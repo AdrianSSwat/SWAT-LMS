@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Container from "@/components/container";
 import PostList from "@/components/postlist";
-import Category from "../../components/blog/category";
+import Category from "../../components/category/page";
 
 
 export default function Post({ posts }) {
@@ -13,7 +13,7 @@ export default function Post({ posts }) {
           <section className="relative">
               <div className="mx-auto max-w-3xl text-center px-4 pb-16">
                   <h1 className="text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
-                  Empower Your Workforce with S.W.A.T.'s Learning Management System
+                  Empower Your Workforce with S.W.A.T. Learning Management System
                   </h1>
                   <div className="text-center">
                     <p className="mt-2 text-lg">

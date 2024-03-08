@@ -38,13 +38,13 @@ export default function About({ authors, settings }) {
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
       <h1 className="text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
-        Empower Your Workforce with S.W.A.T.'s Learning Platform
+        Empower Your Workforce with S.W.A.T. Learning Platform
         </h1>
         <p>
         Welcome to S.W.A.T. Learning Platform, where knowledge meets opportunity. Our comprehensive internal learning management system (LMS) is designed to empower your workforce by providing a dynamic and personalized learning experience tailored to your organization's needs.
         </p>
         <p>
-        Personalized Learning Paths: Our platform offers personalized learning paths tailored to each employee's role, skill level, and career aspirations.
+        Personalized Learning Paths: Our platform offers personalized learning paths tailored to each employee role, skill level, and career aspirations.
         </p>
         <p>
         On-Demand Access: Access a vast library of courses, resources, and interactive content anytime, anywhere, and on any device.

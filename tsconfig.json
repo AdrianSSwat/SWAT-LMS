@@ -36,7 +36,7 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.js",
-    ".next/types/**/*.ts"],
+    ".next/types/**/*.ts", "app/(website)/Word/page.js", "components/category/page.js"],
   "exclude": [
     "node_modules"
   ]

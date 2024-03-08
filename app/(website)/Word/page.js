@@ -10,22 +10,6 @@ const Word = () => {
         date: "Mar 8 2024",
         href: "https://www.youtube.com/watch?v=Hy2XzcW2mxc&t=470s"
     },
-    {
-        title: "MS Word - Ribbon ",
-        img: "./img/word/word (12).png",
-        authorLogo: "/img/it.jpg",
-        authorName: "ICT Department",
-        date: "Mar 8 2024",
-        href: "https://www.youtube.com/watch?v=Hy2XzcW2mxc&t=470s"
-    },
-    {
-      title: "MS Word - Navigation Pane  ",
-      img: "./img/word/word (11).png",
-      authorLogo: "/img/it.jpg",
-      authorName: "ICT Department",
-      date: "Mar 8 2024",
-      href: "https://www.youtube.com/watch?v=Hy2XzcW2mxc&t=1008s"
-  },
   {
     title: "MS Word - Formatting Text  ",
     img: "./img/word/word (10).png",

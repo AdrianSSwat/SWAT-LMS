@@ -1,6 +1,4 @@
-import Link from "next/link";
 import Container from "@/components/container";
-import PostList from "@/components/postlist";
 import Category from "../../components/category/page";
 import MSWord from "../../components/msword/page";
 import MSExcel from "../../components/msexcel/page";
@@ -13,7 +11,7 @@ export default function Post() {
     <>
         <Container>
           <section className="relative">
-              <div className="mx-auto max-w-3xl text-center px-4 pb-16">
+              <div className="mx-auto max-w-3xl text-center px-4 pb-4">
                   <h1 className="text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
                   Empower Your Workforce with S.W.A.T. Learning Management System
                   </h1>

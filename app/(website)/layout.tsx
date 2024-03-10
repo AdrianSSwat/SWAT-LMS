@@ -12,14 +12,14 @@ async function sharedMetaData(params) {
     title: {
       default:
         settings?.title ||
-        "Stablo - Blog Template for Next.js & Sanity CMS",
-      template: "%s | Stablo"
+        "SWAT LMS - Blog Template for Next.js & Sanity CMS",
+      template: "%s | SWAT LMS"
     },
     description:
       settings?.description ||
-      "Stablo - popular open-source next.js and sanity blog template",
-    keywords: ["Next.js", "Sanity", "Tailwind CSS"],
-    authors: [{ name: "Surjith" }],
+      "SWAT LMS - popular open-source next.js and sanity blog template",
+    keywords: ["SWAT LMS"],
+    authors: [{ name: "Adrian Solomon" }],
     canonical: settings?.url,
     openGraph: {
       images: [
@@ -33,7 +33,7 @@ async function sharedMetaData(params) {
       ]
     },
     twitter: {
-      title: settings?.title || "Stablo Template",
+      title: settings?.title || "SWAT LMS",
       card: "summary_large_image"
     },
     robots: {

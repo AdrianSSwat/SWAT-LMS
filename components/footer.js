@@ -13,12 +13,7 @@ export default function Footer(props) {
         <span>
           {" "}
           Made by{" "}
-          {/*  // ** 🙏  Can I ask you a favor? 🙏 **
-            // Please do not remove the below link.
-           // It helps us to grow & continue our work. Thank you.
-          // OR Purchase PRO version for commercial license.  */}
           <a>
-
             Adrian Solomon
           </a>
         </span>
@@ -26,7 +21,7 @@ export default function Footer(props) {
       <div className="mt-2 flex items-center justify-between">
         <div className="mt-5">
           <a>
-            Powered by SWAT Security
+            Powered by SWAT IT Department
           </a>
         </div>
         <ThemeSwitch />

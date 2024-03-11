@@ -35,14 +35,6 @@ const ProfessionalDevelopment = () => {
   href: "https://www.youtube.com/watch?v=xHBhFKBLhWs"
 },
 {
-  title: "How to BUILD a High-Performing Team in 2024 ",
-  img: "./img/professional/professional-5.jpg",
-  authorLogo: "/img/it.jpg",
-  authorName: "ICT Department",
-  date: "Mar 8 2024",
-  href: "https://www.youtube.com/watch?v=jDuu_oWReO8"
-},
-{
   title: "How Emotional Intelligence Makes Leaders More Impactful",
   img: "./img/professional/professional-6.jpg",
   authorLogo: "/img/it.jpg",

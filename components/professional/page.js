@@ -5,7 +5,7 @@ import Link from "next/link";
 const professional = () => {
     const posts = [
         {
-            title: "Microsoft Excel 2021 Full Tutorial",
+            title: "The 7 Habits of Highly Effective People ",
             img: "./img/professional/professional.jpg",
             authorLogo: "/img/it.jpg",
             authorName: "ICT Department",
@@ -13,7 +13,7 @@ const professional = () => {
             href: "https://www.youtube.com/watch?v=bF31VEFvMmY&list=PLoyECfvEFOjYM5cCiDuhu0AfSwo0DBbSa&index=1"
         },
       {
-        title: "MS Excel - Simple Excel Functions ",
+        title: "Robert Greene: A Process for Finding & Achieving Your Unique Purpose",
         img: "./img/professional/professional-2.jpg",
         authorLogo: "/img/it.jpg",
         authorName: "ICT Department",
@@ -21,7 +21,7 @@ const professional = () => {
         href: "https://www.youtube.com/watch?v=7tx1H7sxSL0&list=PLoyECfvEFOjYM5cCiDuhu0AfSwo0DBbSa&index=5&t=2213s"
     },
     {
-      title: "MS Excel - Themes",
+      title: "Proactive vs Reactive | Be Proactive",
       img: "./img/professional/professional-3.jpg",
       authorLogo: "/img/it.jpg",
       authorName: "ICT Department",

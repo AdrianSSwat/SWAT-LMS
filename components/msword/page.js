@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from "next/link";
+import Image from 'next/image';
 
 const msword = () => {
   const posts = [
     {
         title: "Microsoft Word 2021 Full Tutorial",
-        img: "./img/word/word2021.png",
+        img: "/img/word/46.png",
         authorLogo: "/img/it.jpg",
         authorName: "ICT Department",
         date: "Mar 8 2024",
@@ -13,7 +14,7 @@ const msword = () => {
     },
 {
   title: "MS Word - Formatting Text  ",
-  img: "./img/word/word (10).png",
+  img: "/img/word/43.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -21,7 +22,7 @@ const msword = () => {
 },
 {
 title: "MS Word - Paragraph Layouts  ",
-img: "./img/word/word (9).png",
+img: "/img/word/42.png",
 authorLogo: "/img/it.jpg",
 authorName: "ICT Department",
 date: "Mar 8 2024",
@@ -40,10 +41,20 @@ href: "https://www.youtube.com/watch?v=Hy2XzcW2mxc&t=1509s"
                 posts.map((items, key) => (
                     <div className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm relative" key={key}>
                         <a href={items.href}>
-                            <img src={items.img} loading="lazy" alt={items.title}  className="object-cover object-center w-full h-64 rounded-lg lg:h-60" />
+                           <Image 
+                              src={items.img} loading="lazy" alt={items.title}  
+                              className="object-cover object-center"
+                              width={1000}
+                              height={1000} />
+
                             <div className="flex items-center  pt-3 ml-4 mr-2">
                                 <div className="flex-none w-10 h-10 rounded-full">
-                                    <img src={items.authorLogo} className="w-full h-full rounded-full" alt={items.authorName} />
+                                    <Image 
+                                        src={items.authorLogo} 
+                                        className="w-full h-full rounded-full" alt={items.authorName} 
+                                        width={500}
+                                        height={500}
+                                     />
                                 </div>
                                 <div className="ml-3">
                                     <span className="block dark:text-gray-100 text-gray-900">{items.authorName}</span>

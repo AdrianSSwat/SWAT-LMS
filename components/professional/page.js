@@ -1,32 +1,33 @@
 import React from 'react'
 import Link from "next/link";
+import Image from 'next/image';
 
 
 const professional = () => {
     const posts = [
         {
-            title: "The 7 Habits of Highly Effective People ",
-            img: "./img/professional/professional.jpg",
+            title: "The 7 Habits of Highly Effective People",
+            img: "/img/professional/3.png",
             authorLogo: "/img/it.jpg",
             authorName: "ICT Department",
             date: "Mar 8 2024",
-            href: "https://www.youtube.com/watch?v=bF31VEFvMmY&list=PLoyECfvEFOjYM5cCiDuhu0AfSwo0DBbSa&index=1"
+            href: "https://www.youtube.com/watch?v=A-LJ6wvk7Cw"
         },
       {
         title: "Robert Greene: A Process for Finding & Achieving Your Unique Purpose",
-        img: "./img/professional/professional-2.jpg",
+        img: "/img/professional/5.png",
         authorLogo: "/img/it.jpg",
         authorName: "ICT Department",
         date: "Mar 8 2024",
-        href: "https://www.youtube.com/watch?v=7tx1H7sxSL0&list=PLoyECfvEFOjYM5cCiDuhu0AfSwo0DBbSa&index=5&t=2213s"
+        href: "https://www.youtube.com/watch?v=50BZQRT1dAg"
     },
     {
       title: "Proactive vs Reactive | Be Proactive",
-      img: "./img/professional/professional-3.jpg",
+      img: "/img/professional/2.png",
       authorLogo: "/img/it.jpg",
       authorName: "ICT Department",
       date: "Mar 8 2024",
-      href: "https://www.youtube.com/watch?v=7tx1H7sxSL0&list=PLoyECfvEFOjYM5cCiDuhu0AfSwo0DBbSa&index=5&t=3581s"
+      href: "https://www.youtube.com/watch?v=Tex0zKuLCMg"
     },
     ]
       return (
@@ -38,13 +39,22 @@ const professional = () => {
                 </h1>
                 <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                     {
-                        posts.map((items, key) => (
+                         posts.map((items, key) => (
                             <div className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm relative" key={key}>
-                                <a href={items.href}>
-                                    <img src={items.img} loading="lazy" alt={items.title}  className="object-cover object-center w-full h-64 rounded-lg lg:h-60" />
+                                <a className="object-cover object-center w-full h-64 rounded-lg lg:h-60" href={items.href}>
+                                   <div>
+                                   <Image src={items.img} loading="lazy" alt={items.title}         
+                                      width={500}
+                                      height={500}
+                                      quality={100}  />
+                                   </div>
                                     <div className="flex items-center  pt-3 ml-4 mr-2">
                                         <div className="flex-none w-10 h-10 rounded-full">
-                                            <img src={items.authorLogo} className="w-full h-full rounded-full" alt={items.authorName} />
+                                            <Image 
+                                              src={items.authorLogo}
+                                              width={500}
+                                              height={500}
+                                              alt={items.authorName} />
                                         </div>
                                         <div className="ml-3">
                                             <span className="block dark:text-gray-100 text-gray-900">{items.authorName}</span>

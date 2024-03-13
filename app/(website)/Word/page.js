@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Word = () => {
   const posts = [
     {
         title: "Microsoft Word 2021 Full Tutorial",
-        img: "./img/word/word2021.png",
+        img: "/img/word/46.png",
         authorLogo: "/img/it.jpg",
         authorName: "ICT Department",
         date: "Mar 8 2024",
@@ -12,7 +13,7 @@ const Word = () => {
     },
   {
     title: "MS Word - Formatting Text  ",
-    img: "./img/word/word (10).png",
+    img: "/img/word/43.png",
     authorLogo: "/img/it.jpg",
     authorName: "ICT Department",
     date: "Mar 8 2024",
@@ -20,7 +21,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Paragraph Layouts  ",
-  img: "./img/word/word (9).png",
+  img: "/img/word/42.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -28,7 +29,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Creating Lists  ",
-  img: "./img/word/word (8).png",
+  img: "/img/word/41.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -36,7 +37,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Shading and Borders  ",
-  img: "./img/word/word (7).png",
+  img: "/img/word/40.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -44,7 +45,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Format Painter and Styles  ",
-  img: "./img/word/word (6).png",
+  img: "/img/word/39.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -52,7 +53,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Managing Lists ",
-  img: "./img/word/word (5).png",
+  img: "/img/word/38.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -60,7 +61,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Inserting Tables  ",
-  img: "./img/word/word (4).png",
+  img: "/img/word/37.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -68,7 +69,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Inserting Images  ",
-  img: "./img/word/word (3).png",
+  img: "/img/word/36.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -76,7 +77,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Inserting Symbols and Characters",
-  img: "./img/word/word (2).png",
+  img: "/img/word/35.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -84,7 +85,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Page Appearance ",
-  img: "./img/word/word (1).png",
+  img: "/img/word/34.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -92,7 +93,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Headers and Footers  ",
-  img: "./img/word/ms-word (1).png",
+  img: "/img/word/1.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -100,7 +101,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Proofing and the Review Tab  ",
-  img: "./img/word/ms-word (33).png",
+  img: "/img/word/33.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -108,7 +109,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Converting to Other File Types  ",
-  img: "./img/word/ms-word (32).png",
+  img: "/img/word/32.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -116,7 +117,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Table Commands",
-  img: "./img/word/ms-word (31).png",
+  img: "/img/word/31.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -124,7 +125,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Charts",
-  img: "./img/word/ms-word (30).png",
+  img: "/img/word/30.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -132,7 +133,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Adding Tables and Charts from Excel",
-  img: "./img/word/ms-word (29).png",
+  img: "/img/word/29.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -140,7 +141,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Creating Text Styles ",
-  img: "./img/word/ms-word (28).png",
+  img: "/img/word/28.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -148,7 +149,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Creating Table Styles ",
-  img: "./img/word/ms-word (27).png",
+  img: "/img/word/27.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -156,7 +157,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Document Themes",
-  img: "./img/word/ms-word (26).png",
+  img: "/img/word/26.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -164,7 +165,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Building Blocks",
-  img: "./img/word/ms-word (25).png",
+  img: "/img/word/25.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -172,7 +173,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Inserting Fields",
-  img: "./img/word/ms-word (24).png",
+  img: "/img/word/24.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -180,7 +181,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Custom Templates",
-  img: "./img/word/ms-word (23).png",
+  img: "/img/word/23.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -188,7 +189,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Document Flow",
-  img: "./img/word/ms-word (22).png",
+  img: "/img/word/22.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -196,7 +197,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Linking Text Boxes ",
-  img: "./img/word/ms-word (21).png",
+  img: "/img/word/21.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -204,7 +205,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Cover Page and Table of Contents",
-  img: "./img/word/ms-word (20).png",
+  img: "/img/word/20.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -212,7 +213,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Outlines",
-  img: "./img/word/ms-word (19).png",
+  img: "/img/word/19.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -220,7 +221,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Mail Merge",
-  img: "./img/word/ms-word (18).png",
+  img: "/img/word/18.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -228,7 +229,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Manipulating Images",
-  img: "./img/word/ms-word (17).png",
+  img: "/img/word/17.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -236,7 +237,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Inserting Videos ",
-  img: "./img/word/ms-word (16).png",
+  img: "/img/word/16.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -244,7 +245,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Linking Text Boxes",
-  img: "./img/word/ms-word (15).png",
+  img: "/img/word/15.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -252,7 +253,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Drawing Shapes ",
-  img: "./img/word/ms-word (14).png",
+  img: "/img/word/14.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -260,7 +261,7 @@ const Word = () => {
 },
 {
   title: "MS Word - SmartArt",
-  img: "./img/word/ms-word (13).png",
+  img: "/img/word/13.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -268,7 +269,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Sharing for Collaboration ",
-  img: "./img/word/ms-word (12).png",
+  img: "/img/word/11.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -276,7 +277,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Track Changes",
-  img: "./img/word/ms-word (11).png",
+  img: "/img/word/12.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -284,7 +285,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Review Markups",
-  img: "./img/word/ms-word (10).png",
+  img: "/img/word/10.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -292,7 +293,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Merging Changes",
-  img: "./img/word/ms-word (9).png",
+  img: "/img/word/9.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -300,7 +301,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Adding Captions",
-  img: "./img/word/ms-word (8).png",
+  img: "/img/word/8.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -308,7 +309,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Bookmarks and Hyperlinks",
-  img: "./img/word/ms-word (7).png",
+  img: "/img/word/7.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -316,7 +317,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Footnotes and Endnotes",
-  img: "./img/word/ms-word (6).png",
+  img: "/img/word/6.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -324,7 +325,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Bibliography and Citations",
-  img: "./img/word/ms-word (5).png",
+  img: "/img/word/5.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -332,7 +333,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Securing Documents",
-  img: "./img/word/ms-word (4).png",
+  img: "/img/word/4.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -340,7 +341,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Forms ",
-  img: "./img/word/ms-word (3).png",
+  img: "/img/word/3.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -348,7 +349,7 @@ const Word = () => {
 },
 {
   title: "MS Word - Macros ",
-  img: "./img/word/ms-word (2).png",
+  img: "/img/word/2.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -370,10 +371,19 @@ return (
                 posts.map((items, key) => (
                     <div className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm relative" key={key}>
                         <a href={items.href}>
-                            <img src={items.img} loading="lazy" alt={items.title}  className="object-cover object-center w-full h-64 rounded-lg lg:h-60" />
+                         
+                         <Image 
+                              src={items.img} loading="lazy" alt={items.title}  
+                              className="object-cover object-center"
+                              width={1000}
+                              height={1000} />
+                         
                             <div className="flex items-center  pt-3 ml-4 mr-2">
                                 <div className="flex-none w-10 h-10 rounded-full">
-                                    <img src={items.authorLogo} className="w-full h-full rounded-full" alt={items.authorName} />
+                                    <Image src={items.authorLogo} 
+                                      className="w-full h-full rounded-full" 
+                                      width={500}
+                                      height={500}alt={items.authorName} />
                                 </div>
                                 <div className="ml-3">
                                     <span className="block dark:text-gray-100 text-gray-900">{items.authorName}</span>

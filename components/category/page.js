@@ -1,20 +1,20 @@
 import React from 'react'
-
+import Image from 'next/image'
 
 const page = () => {
   const team = [
     {
-        avatar: "./img/word.png",
+        avatar: "/img/word.png",
         name: "MS Word",
         path: "/Word",
     },
     {
-        avatar: "./img/excel.png",
+        avatar: "/img/excel.png",
         name: "MS Excel",
         path: "/Excel",
     },
     {
-        avatar: "./img/motivation.png",
+        avatar: "/img/motivation.png",
         name: "Professional Development",
         path: "/Professional-Development",
     },
@@ -28,10 +28,11 @@ return (
                     {
                         team.map((item, idx) => (
                             <li key={idx} className="flex gap-4 items-center">
-                                <div className="flex-none w-24 h-24">
-                                    <img
+                                <div className="flex-none w-auto h-auto w-full h-full rounded-full">
+                                    <Image
                                         src={item.avatar}
-                                        className="w-full h-full rounded-full"
+                                        width={100}
+                                        height={100}
                                         alt=""
                                     />
                                 </div>

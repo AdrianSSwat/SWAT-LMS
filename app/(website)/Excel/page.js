@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Excel = () => {
   const posts = [
     {
         title: "Microsoft Excel 2021 Full Tutorial",
-        img: "./img/excel/excel.jpg",
+        img: "/img/excel/1.png",
         authorLogo: "/img/it.jpg",
         authorName: "ICT Department",
         date: "Mar 8 2024",
@@ -12,7 +12,7 @@ const Excel = () => {
     },
     {
         title: "MS Excel - Zooming, Navigating, and Shortcuts ",
-        img: "./img/excel/excel (40).png",
+        img: "/img/excel/40.png",
         authorLogo: "/img/it.jpg",
         authorName: "ICT Department",
         date: "Mar 8 2024",
@@ -20,7 +20,7 @@ const Excel = () => {
     },
     {
       title: "MS Excel - Performing Excel Calculations ",
-      img: "./img/excel/excel (39).png",
+      img: "/img/excel/39.png",
       authorLogo: "/img/it.jpg",
       authorName: "ICT Department",
       date: "Mar 8 2024",
@@ -28,7 +28,7 @@ const Excel = () => {
   },
   {
     title: "MS Excel - Simple Excel Functions ",
-    img: "./img/excel/excel (38).png",
+    img: "/img/excel/38.png",
     authorLogo: "/img/it.jpg",
     authorName: "ICT Department",
     date: "Mar 8 2024",
@@ -36,7 +36,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - ABS, REF, and AutoFill Functions ",
-  img: "./img/excel/excel (37).png",
+  img: "/img/excel/37.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -44,7 +44,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Checking Compatibility ",
-  img: "./img/excel/excel (36).png",
+  img: "/img/excel/36.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -52,7 +52,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Inserting, Moving, and Cutting",
-  img: "./img/excel/excel (35).png",
+  img: "/img/excel/35.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -60,7 +60,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Cell Styles ",
-  img: "./img/excel/excel (34).png",
+  img: "/img/excel/34.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -68,7 +68,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Themes",
-  img: "./img/excel/excel (33).png",
+  img: "/img/excel/33.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -76,7 +76,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Showing and Hiding Worksheets ",
-  img: "./img/excel/excel (32).png",
+  img: "/img/excel/32.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -84,7 +84,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Grouping Worksheets ",
-  img: "./img/excel/excel (31).png",
+  img: "/img/excel/31.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -92,7 +92,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Freeze Panes",
-  img: "./img/excel/excel (30).png",
+  img: "/img/excel/30.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -100,7 +100,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Custom Views",
-  img: "./img/excel/excel (29).png",
+  img: "/img/excel/29.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -108,7 +108,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Saving Templates ",
-  img: "./img/excel/excel (28).png",
+  img: "/img/excel/28.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -116,7 +116,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Spell Check ",
-  img: "./img/excel/excel (27).png",
+  img: "/img/excel/27.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -124,7 +124,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Print Preview ",
-  img: "./img/excel/excel (26).png",
+  img: "/img/excel/26.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -132,7 +132,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Formatting Lists as Tables ",
-  img: "./img/excel/excel (25).png",
+  img: "/img/excel/25.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -140,7 +140,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Flash Fill",
-  img: "./img/excel/excel (24).png",
+  img: "/img/excel/24.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -148,7 +148,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Custom Sorting ",
-  img: "./img/excel/excel (23).png",
+  img: "/img/excel/23.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -156,7 +156,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Subtotals",
-  img: "./img/excel/excel (22).png",
+  img: "/img/excel/22.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -164,7 +164,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - QA Tool",
-  img: "./img/excel/excel (21).png",
+  img: "/img/excel/21.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -172,7 +172,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Data Charts",
-  img: "./img/excel/excel (20).png",
+  img: "/img/excel/20.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -180,7 +180,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Sparklines ",
-  img: "./img/excel/excel (19).png",
+  img: "/img/excel/19.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -188,7 +188,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Introduction to Pivot Tables ",
-  img: "./img/excel/excel (18).png",
+  img: "/img/excel/18.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -196,7 +196,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Advanced Pivot Tables Options ",
-  img: "./img/excel/excel (17).png",
+  img: "/img/excel/17.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -204,7 +204,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Data Validation ",
-  img: "./img/excel/excel (16).png",
+  img: "/img/excel/16.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -212,7 +212,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Conditional Formats ",
-  img: "./img/excel/excel (15).png",
+  img: "/img/excel/15.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -220,7 +220,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Comments and Notes ",
-  img: "./img/excel/excel (14).png",
+  img: "/img/excel/14.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -228,7 +228,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Linking Data ",
-  img: "./img/excel/excel (13).png",
+  img: "/img/excel/13.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -236,7 +236,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Privacy and Protection ",
-  img: "./img/excel/excel (12).png",
+  img: "/img/excel/12.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -244,7 +244,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Nesting Functions ",
-  img: "./img/excel/excel (11).png",
+  img: "/img/excel/11.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -252,7 +252,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Database Functions  ",
-  img: "./img/excel/excel (10).png",
+  img: "/img/excel/10.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -260,7 +260,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - XLOOKUP ",
-  img: "./img/excel/excel (9).png",
+  img: "/img/excel/9.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -268,7 +268,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - UNIQUE  ",
-  img: "./img/excel/excel (8).png",
+  img: "/img/excel/8.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -276,7 +276,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - SORT and SORTBY ",
-  img: "./img/excel/excel (7).png",
+  img: "/img/excel/7.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -284,7 +284,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - FILTER ",
-  img: "./img/excel/excel (6).png",
+  img: "/img/excel/6.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -292,7 +292,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - LET ",
-  img: "./img/excel/excel (5).png",
+  img: "/img/excel/5.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -300,7 +300,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Consolidate ",
-  img: "./img/excel/excel (4).png",
+  img: "/img/excel/4.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -308,7 +308,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Introduction to Macros ",
-  img: "./img/excel/excel (3).png",
+  img: "/img/excel/3.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -316,7 +316,7 @@ const Excel = () => {
 },
 {
   title: "MS Excel - Recording and Playing Macros ",
-  img: "./img/excel/excel (2).png",
+  img: "/img/excel/2.png",
   authorLogo: "/img/it.jpg",
   authorName: "ICT Department",
   date: "Mar 8 2024",
@@ -337,11 +337,20 @@ return (
             {
                 posts.map((items, key) => (
                     <div className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm relative" key={key}>
-                        <a href={items.href}>
-                            <img src={items.img} loading="lazy" alt={items.title}  className="object-cover object-center w-full h-64 rounded-lg lg:h-60" />
+                        <a className="object-cover object-center w-full h-64 rounded-lg lg:h-60" href={items.href}>
+                           <div>
+                           <Image src={items.img} loading="lazy" alt={items.title}         
+                              width={500}
+                              height={500}
+                              quality={100}  />
+                           </div>
                             <div className="flex items-center  pt-3 ml-4 mr-2">
                                 <div className="flex-none w-10 h-10 rounded-full">
-                                    <img src={items.authorLogo} className="w-full h-full rounded-full" alt={items.authorName} />
+                                    <Image 
+                                      src={items.authorLogo}
+                                      width={500}
+                                      height={500}
+                                      alt={items.authorName} />
                                 </div>
                                 <div className="ml-3">
                                     <span className="block dark:text-gray-100 text-gray-900">{items.authorName}</span>

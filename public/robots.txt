@@ -6,4 +6,4 @@ Allow: /
 Host: https://swat-lms.vercel.app/
 
 # Sitemaps
-Sitemap: https://swat-lms.vercel.app//sitemap.xml
+Sitemap: https://swat-lms.vercel.app/sitemap.xml

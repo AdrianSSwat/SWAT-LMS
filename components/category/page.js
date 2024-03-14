@@ -21,33 +21,31 @@ const page = () => {
 ]
 
 return (
-    <section className="py-14">
-        <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-            <div>
-                <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                    {
-                        team.map((item, idx) => (
-                            <li key={idx} className="flex gap-4 items-center">
-                                <div className="flex-none w-auto h-auto w-full h-full rounded-full">
-                                    <Image
-                                        src={item.avatar}
-                                        width={100}
-                                        height={100}
-                                        alt=""
-                                    />
-                                </div>
-                                <div>
-                                    <a className="dark:text-gray-100 text-gray-700 font-semibold sm:text-lg" href={item.path}>
-                                      {item.name}
-                                    </a>
-                                </div>
-                            </li>
-                        ))
-                    }
-                </ul>
-            </div>
-        </div>
-    </section>
+    <>
+    <section className="bg-white dark:bg-black">
+    <div className="container  py-4 mx-auto">
+        <ul className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+        {
+            team.map((item, idx) => (
+            <li key={idx} className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-slate-600 " >
+                <Image
+                className="object-cover "
+                src={item.avatar}
+                width={100}
+                height={100}
+                />
+                <a className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white" href={item.path}>         
+                    {item.name}
+                </a>
+            </li>
+              ))
+            }
+        </ul>
+    </div>
+</section>
+
+    </>
+   
   )
 }
 

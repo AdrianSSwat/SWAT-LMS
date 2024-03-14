@@ -49,7 +49,7 @@ const professional = () => {
                                       quality={100}  />
                                    </div>
                                     <div className="flex items-center  pt-3 ml-4 mr-2">
-                                        <div className="flex-none w-10 h-10 rounded-full">
+                                        <div className="flex-none w-10 h-10 ">
                                             <Image 
                                               src={items.authorLogo}
                                               width={500}

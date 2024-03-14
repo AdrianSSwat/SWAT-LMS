@@ -48,18 +48,17 @@ href: "https://www.youtube.com/watch?v=Hy2XzcW2mxc&t=1509s"
                               height={1000} />
 
                             <div className="flex items-center  pt-3 ml-4 mr-2">
-                                <div className="flex-none w-10 h-10 rounded-full">
-                                    <Image 
-                                        src={items.authorLogo} 
-                                        className="w-full h-full rounded-full" alt={items.authorName} 
-                                        width={500}
-                                        height={500}
-                                     />
-                                </div>
-                                <div className="ml-3">
-                                    <span className="block dark:text-gray-100 text-gray-900">{items.authorName}</span>
-                                    <span className="block dark:text-gray-500 text-gray-400 text-sm">{items.date}</span>
-                                </div>
+                            <div className="flex-none w-10 h-10 ">
+                                            <Image 
+                                              src={items.authorLogo}
+                                              width={500}
+                                              height={500}
+                                              alt={items.authorName} />
+                                        </div>
+                                        <div className="ml-3">
+                                            <span className="block dark:text-gray-100 text-gray-900">{items.authorName}</span>
+                                            <span className="block dark:text-gray-500 text-gray-400 text-sm">{items.date}</span>
+                                        </div>
                             </div>
                             <div className="pt-3 ml-4 mr-2 mb-3">
                                 <h3 className="text-xl dark:text-gray-100 text-gray-900">
